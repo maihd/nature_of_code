@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Chapters">
+      <UniqueIdentifier>{7F250781-6BF2-618C-940B-50348037971A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapters\Introduction">
+      <UniqueIdentifier>{FD5BA679-69C8-6174-32BC-F9D19EE783DC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Chapters\Introduction\RandomWalk_Probability.c">
+      <Filter>Chapters\Introduction</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

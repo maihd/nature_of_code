@@ -18,6 +18,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NatureOfCode_Introduction_R
 		{1102217C-FDFB-49CE-E668-E0DED201B03A} = {1102217C-FDFB-49CE-E668-E0DED201B03A}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NatureOfCode_Introduction_RandomWalk_Probability", "NatureOfCode_Introduction_RandomWalk_Probability.vcxproj", "{74745C82-601D-C4B1-89B3-DF3075BBDEF2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1102217C-FDFB-49CE-E668-E0DED201B03A} = {1102217C-FDFB-49CE-E668-E0DED201B03A}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -58,6 +63,14 @@ Global
 		{3FA7FB87-2B50-63B7-54E6-7E3640EE7DF8}.Release|Win32.Build.0 = Release|Win32
 		{3FA7FB87-2B50-63B7-54E6-7E3640EE7DF8}.Release|x64.ActiveCfg = Release|x64
 		{3FA7FB87-2B50-63B7-54E6-7E3640EE7DF8}.Release|x64.Build.0 = Release|x64
+		{74745C82-601D-C4B1-89B3-DF3075BBDEF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74745C82-601D-C4B1-89B3-DF3075BBDEF2}.Debug|Win32.Build.0 = Debug|Win32
+		{74745C82-601D-C4B1-89B3-DF3075BBDEF2}.Debug|x64.ActiveCfg = Debug|x64
+		{74745C82-601D-C4B1-89B3-DF3075BBDEF2}.Debug|x64.Build.0 = Debug|x64
+		{74745C82-601D-C4B1-89B3-DF3075BBDEF2}.Release|Win32.ActiveCfg = Release|Win32
+		{74745C82-601D-C4B1-89B3-DF3075BBDEF2}.Release|Win32.Build.0 = Release|Win32
+		{74745C82-601D-C4B1-89B3-DF3075BBDEF2}.Release|x64.ActiveCfg = Release|x64
+		{74745C82-601D-C4B1-89B3-DF3075BBDEF2}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
