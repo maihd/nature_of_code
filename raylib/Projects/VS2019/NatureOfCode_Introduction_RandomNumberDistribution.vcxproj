@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A47EFC2F-100E-BE1A-190A-9F328518F926}</ProjectGuid>
-    <RootNamespace>NatureOfCode_Introdtion_RandomWalk_8Way</RootNamespace>
+    <ProjectGuid>{2E65088E-1AF9-FD35-83BD-57EA6F703828}</ProjectGuid>
+    <RootNamespace>NatureOfCode_Introduction_RandomNumberDistribution</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
     <Keyword>Win32Proj</Keyword>
@@ -74,29 +74,29 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>bin\</OutDir>
-    <IntDir>obj\x32\Debug\NatureOfCode_Introdtion_RandomWalk_8Way\</IntDir>
-    <TargetName>NatureOfCode_Introdtion_RandomWalk_8Way</TargetName>
+    <IntDir>obj\x32\Debug\NatureOfCode_Introduction_RandomNumberDistribution\</IntDir>
+    <TargetName>NatureOfCode_Introduction_RandomNumberDistribution</TargetName>
     <TargetExt>.exe</TargetExt>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>bin\</OutDir>
-    <IntDir>obj\x64\Debug\NatureOfCode_Introdtion_RandomWalk_8Way\</IntDir>
-    <TargetName>NatureOfCode_Introdtion_RandomWalk_8Way</TargetName>
+    <IntDir>obj\x64\Debug\NatureOfCode_Introduction_RandomNumberDistribution\</IntDir>
+    <TargetName>NatureOfCode_Introduction_RandomNumberDistribution</TargetName>
     <TargetExt>.exe</TargetExt>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>bin\</OutDir>
-    <IntDir>obj\x32\Release\NatureOfCode_Introdtion_RandomWalk_8Way\</IntDir>
-    <TargetName>NatureOfCode_Introdtion_RandomWalk_8Way</TargetName>
+    <IntDir>obj\x32\Release\NatureOfCode_Introduction_RandomNumberDistribution\</IntDir>
+    <TargetName>NatureOfCode_Introduction_RandomNumberDistribution</TargetName>
     <TargetExt>.exe</TargetExt>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>bin\</OutDir>
-    <IntDir>obj\x64\Release\NatureOfCode_Introdtion_RandomWalk_8Way\</IntDir>
-    <TargetName>NatureOfCode_Introdtion_RandomWalk_8Way</TargetName>
+    <IntDir>obj\x64\Release\NatureOfCode_Introduction_RandomNumberDistribution\</IntDir>
+    <TargetName>NatureOfCode_Introduction_RandomNumberDistribution</TargetName>
     <TargetExt>.exe</TargetExt>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
@@ -116,7 +116,7 @@
       <ExceptionHandling>false</ExceptionHandling>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <ProgramDataBaseFileName>$(IntDir)NatureOfCode_Introdtion_RandomWalk_8Way.compile.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(IntDir)NatureOfCode_Introduction_RandomNumberDistribution.compile.pdb</ProgramDataBaseFileName>
       <OmitFramePointers>true</OmitFramePointers>
       <CompileAs>CompileAsC</CompileAs>
       <DiagnosticsFormat>Caret</DiagnosticsFormat>
@@ -128,10 +128,10 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)NatureOfCode_Introdtion_RandomWalk_8Way.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)NatureOfCode_Introduction_RandomNumberDistribution.pdb</ProgramDatabaseFile>
       <AdditionalDependencies>raylib_static.lib;winmm.lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\ThirdParty\Library\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <OutputFile>$(OutDir)NatureOfCode_Introdtion_RandomWalk_8Way.exe</OutputFile>
+      <OutputFile>$(OutDir)NatureOfCode_Introduction_RandomNumberDistribution.exe</OutputFile>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
@@ -152,7 +152,7 @@
       <ExceptionHandling>false</ExceptionHandling>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <ProgramDataBaseFileName>$(IntDir)NatureOfCode_Introdtion_RandomWalk_8Way.compile.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(IntDir)NatureOfCode_Introduction_RandomNumberDistribution.compile.pdb</ProgramDataBaseFileName>
       <OmitFramePointers>true</OmitFramePointers>
       <CompileAs>CompileAsC</CompileAs>
       <DiagnosticsFormat>Caret</DiagnosticsFormat>
@@ -164,10 +164,10 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)NatureOfCode_Introdtion_RandomWalk_8Way.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)NatureOfCode_Introduction_RandomNumberDistribution.pdb</ProgramDatabaseFile>
       <AdditionalDependencies>raylib_static.lib;winmm.lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\ThirdParty\Library\Win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <OutputFile>$(OutDir)NatureOfCode_Introdtion_RandomWalk_8Way.exe</OutputFile>
+      <OutputFile>$(OutDir)NatureOfCode_Introduction_RandomNumberDistribution.exe</OutputFile>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
@@ -203,7 +203,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>raylib_static.lib;winmm.lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\ThirdParty\Library\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <OutputFile>$(OutDir)NatureOfCode_Introdtion_RandomWalk_8Way.exe</OutputFile>
+      <OutputFile>$(OutDir)NatureOfCode_Introduction_RandomNumberDistribution.exe</OutputFile>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
@@ -239,13 +239,13 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>raylib_static.lib;winmm.lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\ThirdParty\Library\Win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <OutputFile>$(OutDir)NatureOfCode_Introdtion_RandomWalk_8Way.exe</OutputFile>
+      <OutputFile>$(OutDir)NatureOfCode_Introduction_RandomNumberDistribution.exe</OutputFile>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Chapters\Introduction\RandomWalk_8Way.c">
+    <ClCompile Include="..\..\Chapters\Introduction\RandomNumberDistribution.c">
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

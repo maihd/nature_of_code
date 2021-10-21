@@ -82,7 +82,7 @@ end
 local function chapter(folder)
     local root = path.join(ROOT_DIR, "Chapters")
     for _, file in pairs(os.matchfiles(path.join(root, folder, "*.c"))) do
-        local name = file:gsub(root .. "/", ""):gsub("/", "_"):gsub(".c", "")
+        local name = path.getbasename(file:gsub(root .. "/", "", 1):gsub("/", "_"))
         template(name, file)
     end
 end

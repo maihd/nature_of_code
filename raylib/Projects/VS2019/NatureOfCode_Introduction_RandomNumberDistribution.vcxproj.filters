@@ -9,7 +9,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Chapters\Introduction\RandomWalk_8Way.c">
+    <ClCompile Include="..\..\Chapters\Introduction\RandomNumberDistribution.c">
       <Filter>Chapters\Introduction</Filter>
     </ClCompile>
   </ItemGroup>

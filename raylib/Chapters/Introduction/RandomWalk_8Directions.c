@@ -19,7 +19,7 @@ static void DrawWalker(Walker walker)
 
 int main(char* argv[], int argc)
 {
-    InitWindow(800, 600, "Introduction");
+    InitWindow(800, 600, "Random Walk 8-Directions");
     SetTargetFPS(60);
     
     // We need a canvas to draw in it, that canvas wont be clear frame after frame

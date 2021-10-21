@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FCB4C004-E8F0-C36E-5103-DC653D5E6C89}</ProjectGuid>
-    <RootNamespace>NatureOfCode_Introdtion_RandomWalk</RootNamespace>
+    <ProjectGuid>{3FA7FB87-2B50-63B7-54E6-7E3640EE7DF8}</ProjectGuid>
+    <RootNamespace>NatureOfCode_Introduction_RandomWalk_8Directions</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
     <Keyword>Win32Proj</Keyword>
@@ -74,29 +74,29 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>bin\</OutDir>
-    <IntDir>obj\x32\Debug\NatureOfCode_Introdtion_RandomWalk\</IntDir>
-    <TargetName>NatureOfCode_Introdtion_RandomWalk</TargetName>
+    <IntDir>obj\x32\Debug\NatureOfCode_Introduction_RandomWalk_8Directions\</IntDir>
+    <TargetName>NatureOfCode_Introduction_RandomWalk_8Directions</TargetName>
     <TargetExt>.exe</TargetExt>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>bin\</OutDir>
-    <IntDir>obj\x64\Debug\NatureOfCode_Introdtion_RandomWalk\</IntDir>
-    <TargetName>NatureOfCode_Introdtion_RandomWalk</TargetName>
+    <IntDir>obj\x64\Debug\NatureOfCode_Introduction_RandomWalk_8Directions\</IntDir>
+    <TargetName>NatureOfCode_Introduction_RandomWalk_8Directions</TargetName>
     <TargetExt>.exe</TargetExt>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>bin\</OutDir>
-    <IntDir>obj\x32\Release\NatureOfCode_Introdtion_RandomWalk\</IntDir>
-    <TargetName>NatureOfCode_Introdtion_RandomWalk</TargetName>
+    <IntDir>obj\x32\Release\NatureOfCode_Introduction_RandomWalk_8Directions\</IntDir>
+    <TargetName>NatureOfCode_Introduction_RandomWalk_8Directions</TargetName>
     <TargetExt>.exe</TargetExt>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>bin\</OutDir>
-    <IntDir>obj\x64\Release\NatureOfCode_Introdtion_RandomWalk\</IntDir>
-    <TargetName>NatureOfCode_Introdtion_RandomWalk</TargetName>
+    <IntDir>obj\x64\Release\NatureOfCode_Introduction_RandomWalk_8Directions\</IntDir>
+    <TargetName>NatureOfCode_Introduction_RandomWalk_8Directions</TargetName>
     <TargetExt>.exe</TargetExt>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
@@ -116,7 +116,7 @@
       <ExceptionHandling>false</ExceptionHandling>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <ProgramDataBaseFileName>$(IntDir)NatureOfCode_Introdtion_RandomWalk.compile.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(IntDir)NatureOfCode_Introduction_RandomWalk_8Directions.compile.pdb</ProgramDataBaseFileName>
       <OmitFramePointers>true</OmitFramePointers>
       <CompileAs>CompileAsC</CompileAs>
       <DiagnosticsFormat>Caret</DiagnosticsFormat>
@@ -128,10 +128,10 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)NatureOfCode_Introdtion_RandomWalk.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)NatureOfCode_Introduction_RandomWalk_8Directions.pdb</ProgramDatabaseFile>
       <AdditionalDependencies>raylib_static.lib;winmm.lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\ThirdParty\Library\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <OutputFile>$(OutDir)NatureOfCode_Introdtion_RandomWalk.exe</OutputFile>
+      <OutputFile>$(OutDir)NatureOfCode_Introduction_RandomWalk_8Directions.exe</OutputFile>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
@@ -152,7 +152,7 @@
       <ExceptionHandling>false</ExceptionHandling>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <ProgramDataBaseFileName>$(IntDir)NatureOfCode_Introdtion_RandomWalk.compile.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(IntDir)NatureOfCode_Introduction_RandomWalk_8Directions.compile.pdb</ProgramDataBaseFileName>
       <OmitFramePointers>true</OmitFramePointers>
       <CompileAs>CompileAsC</CompileAs>
       <DiagnosticsFormat>Caret</DiagnosticsFormat>
@@ -164,10 +164,10 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)NatureOfCode_Introdtion_RandomWalk.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)NatureOfCode_Introduction_RandomWalk_8Directions.pdb</ProgramDatabaseFile>
       <AdditionalDependencies>raylib_static.lib;winmm.lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\ThirdParty\Library\Win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <OutputFile>$(OutDir)NatureOfCode_Introdtion_RandomWalk.exe</OutputFile>
+      <OutputFile>$(OutDir)NatureOfCode_Introduction_RandomWalk_8Directions.exe</OutputFile>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
@@ -203,7 +203,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>raylib_static.lib;winmm.lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\ThirdParty\Library\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <OutputFile>$(OutDir)NatureOfCode_Introdtion_RandomWalk.exe</OutputFile>
+      <OutputFile>$(OutDir)NatureOfCode_Introduction_RandomWalk_8Directions.exe</OutputFile>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
@@ -239,13 +239,13 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>raylib_static.lib;winmm.lib;;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\ThirdParty\Library\Win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <OutputFile>$(OutDir)NatureOfCode_Introdtion_RandomWalk.exe</OutputFile>
+      <OutputFile>$(OutDir)NatureOfCode_Introduction_RandomWalk_8Directions.exe</OutputFile>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Chapters\Introduction\RandomWalk.c">
+    <ClCompile Include="..\..\Chapters\Introduction\RandomWalk_8Directions.c">
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
