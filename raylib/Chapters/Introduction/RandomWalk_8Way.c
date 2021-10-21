@@ -1,15 +1,5 @@
 #include <raylib.h>
 
-typedef enum WalkDirection
-{
-    WALK_LEFT,
-    WALK_RIGHT,
-    WALK_UP,
-    WALK_DOWN,
-
-    WALK_DIRECTION_COUNT,
-} WalkDirection;
-
 typedef struct Walker
 {
     float x;
@@ -18,25 +8,8 @@ typedef struct Walker
 
 static void StepWalker(Walker* walker, float distance)
 {
-    WalkDirection direction = GetRandomValue(0, WALK_DIRECTION_COUNT - 1);
-    switch (direction)
-    {
-        case WALK_LEFT:
-            walker->x -= distance;
-            break;
-
-        case WALK_RIGHT:
-            walker->x += distance;
-            break;
-
-        case WALK_UP:
-            walker->y -= distance;
-            break;
-
-        case WALK_DOWN:
-            walker->y += distance;
-            break;
-    }
+    walker->x += GetRandomValue(-1, 1) * distance;
+    walker->y += GetRandomValue(-1, 1) * distance;
 }
 
 static void DrawWalker(Walker walker)
