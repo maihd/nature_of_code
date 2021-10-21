@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{1362EE31-7FCC-A2A8-C80A-544E34B480FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Include">
+      <UniqueIdentifier>{F3BF446B-5FD6-4201-A84D-CE2214A31389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Include\Framework">
+      <UniqueIdentifier>{FD8A1DC6-6998-4BAC-F27E-47975E8B1763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Sources">
+      <UniqueIdentifier>{13FFA870-7F15-A706-C88C-322834E2778E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{107145F9-FC28-8746-6530-60A251072237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Include">
+      <UniqueIdentifier>{F07BC586-DC5F-86DC-45C0-802F31C3705E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Framework\Include\Framework\Array.h">
+      <Filter>Framework\Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Framework\Include\Framework\Debug.h">
+      <Filter>Framework\Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Framework\Include\Framework\Easings.h">
+      <Filter>Framework\Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Framework\Include\Framework\FreeList.h">
+      <Filter>Framework\Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Framework\Include\Framework\HashTable.h">
+      <Filter>Framework\Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Framework\Include\Framework\Memory.h">
+      <Filter>Framework\Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Framework\Include\Framework\RayGui.h">
+      <Filter>Framework\Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Framework\Include\Framework\System.h">
+      <Filter>Framework\Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\Include\raylib.h">
+      <Filter>ThirdParty\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\Include\raymath.h">
+      <Filter>ThirdParty\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Framework\Sources\Array.c">
+      <Filter>Framework\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Framework\Sources\Debug.c">
+      <Filter>Framework\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Framework\Sources\HashTable.c">
+      <Filter>Framework\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Framework\Sources\Memory.c">
+      <Filter>Framework\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Framework\Sources\RayGui.c">
+      <Filter>Framework\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Framework\Sources\System.c">
+      <Filter>Framework\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
