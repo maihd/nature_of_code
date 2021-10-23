@@ -16,6 +16,7 @@ This folder contains excersises and examples from Nature of Code book. I convert
 - Repeat daily
 
 ## Advises
+- Enjoy practice programming
 - Kata should takes short time to finish
 - No pressures when practicing
 - It should fun and motivate
@@ -23,3 +24,4 @@ This folder contains excersises and examples from Nature of Code book. I convert
     - Try other paradigm: oop, functional, procedure, dod,...
     - Try other framework: raylib, p5js, elm-canvas, elm-p5, processing, DIY framework,...
     - Try other language: js, c/c++, elm, java, kotlin, python, lua,...
+- Reading this again when you start new practice session, day after day.
