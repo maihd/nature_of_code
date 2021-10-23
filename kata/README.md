@@ -14,3 +14,12 @@ This folder contains excersises and examples from Nature of Code book. I convert
     - raylib: create new .c file, add entry to scripts/genie.lua, generate project with genie
 - See the result, if satisfied remove the file
 - Repeat daily
+
+## Advises
+- Kata should takes short time to finish
+- No pressures when practicing
+- It should fun and motivate
+- Be creative, try multiways:
+    - Try other paradigm: oop, functional, procedure, dod,...
+    - Try other framework: raylib, p5js, elm-canvas, elm-p5, processing, DIY framework,...
+    - Try other language: js, c/c++, elm, java, kotlin, python, lua,...
