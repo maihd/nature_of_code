@@ -10,5 +10,5 @@ Code Examples for Nature Of Code book written in p5js
 
 ## Examples
 - [Introduction](/p5js/introduction)
-    - [Random walk](/p5js/random_walk.js)
-    - [Random walk 8 Directions](/p5js/random_walk_8_directions.js)
+    - [Random walk](/p5js/introduction/random_walk.js)
+    - [Random walk 8 Directions](/p5js/introduction/random_walk_8_directions.js)
