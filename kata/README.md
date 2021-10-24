@@ -5,6 +5,9 @@ This folder contains excersises and examples from Nature of Code book. I convert
 - Introduction
     - Random walk
     - Random walk 8 directions
+    - Random walk with gaussian
+    - Random walk with probability
+    - Normal distribution
 
 ## How to do kata
 - Read and understand the problem give by kata
@@ -25,3 +28,8 @@ This folder contains excersises and examples from Nature of Code book. I convert
     - Try other framework: raylib, p5js, elm-canvas, elm-p5, processing, DIY framework,...
     - Try other language: js, c/c++, elm, java, kotlin, python, lua,...
 - Reading this again when you start new practice session, day after day.
+
+## Online code environment for kata
+- [Elm-Canvas Ellie](https://ellie-app.com/62Dy7vxsBHZa1)
+- [Elm-Playground Ellie](https://ellie-app.com/fFCjBTBCSFqa1)
+- [p5js Web Editor](https://editor.p5js.org/)
