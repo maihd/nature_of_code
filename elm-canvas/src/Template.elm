@@ -6,7 +6,7 @@ import Canvas exposing (rect, shapes, clear)
 import Canvas.Settings exposing (fill)
 import Canvas.Settings.Advanced exposing (rotate, transform, translate)
 import Color
-import Html exposing (Html, div, text)
+import Html exposing (Html, div)
 import Html.Attributes exposing (style)
 
 type alias Model = 
@@ -33,7 +33,7 @@ main =
         { init = init
         , view = view
         , update = update
-        , subscriptions = \model -> onAnimationFrameDelta Frame
+        , subscriptions = \_ -> onAnimationFrameDelta Frame
         }
 
 init : () -> ( Model, Cmd Msg )
