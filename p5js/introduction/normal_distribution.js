@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-    const x = randomGaussian(320, 60);
+    const x = randomGaussian(width * 0.5, 60);
 
     noStroke();
     fill(0, 10);
